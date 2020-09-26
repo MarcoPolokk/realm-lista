@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F113AA9251CCA5F009F91D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113AA8251CCA5F009F91D4 /* Item.swift */; };
 		5F590294251A2C48005F280E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F590293251A2C48005F280E /* AppDelegate.swift */; };
 		5F590296251A2C48005F280E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F590295251A2C48005F280E /* SceneDelegate.swift */; };
 		5F590298251A2C48005F280E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F590297251A2C48005F280E /* TableViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F113AA8251CCA5F009F91D4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5F590290251A2C48005F280E /* realm-lista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "realm-lista.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F590293251A2C48005F280E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F590295251A2C48005F280E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		5F5902AC251A2D1D005F280E /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				5F113AA8251CCA5F009F91D4 /* Item.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F113AA9251CCA5F009F91D4 /* Item.swift in Sources */,
 				5F590298251A2C48005F280E /* TableViewController.swift in Sources */,
 				5F590294251A2C48005F280E /* AppDelegate.swift in Sources */,
 				5F590296251A2C48005F280E /* SceneDelegate.swift in Sources */,
