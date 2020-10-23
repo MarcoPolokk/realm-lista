@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F113AA9251CCA5F009F91D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113AA8251CCA5F009F91D4 /* Item.swift */; };
 		5F590294251A2C48005F280E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F590293251A2C48005F280E /* AppDelegate.swift */; };
 		5F590296251A2C48005F280E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F590295251A2C48005F280E /* SceneDelegate.swift */; };
 		5F590298251A2C48005F280E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F590297251A2C48005F280E /* TableViewController.swift */; };
 		5F59029B251A2C48005F280E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F590299251A2C48005F280E /* Main.storyboard */; };
 		5F59029D251A2C4A005F280E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F59029C251A2C4A005F280E /* Assets.xcassets */; };
 		5F5902A0251A2C4A005F280E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F59029E251A2C4A005F280E /* LaunchScreen.storyboard */; };
+		5F6C04092524EDAF006B6C9E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C04072524EDAF006B6C9E /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F113AA8251CCA5F009F91D4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5F590290251A2C48005F280E /* realm-lista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "realm-lista.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F590293251A2C48005F280E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F590295251A2C48005F280E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		5F59029C251A2C4A005F280E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F59029F251A2C4A005F280E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F5902A1251A2C4A005F280E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6C04082524EDAF006B6C9E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		5F5902AC251A2D1D005F280E /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				5F113AA8251CCA5F009F91D4 /* Item.swift */,
+				5F6C04072524EDAF006B6C9E /* DataModel.xcdatamodeld */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F113AA9251CCA5F009F91D4 /* Item.swift in Sources */,
+				5F6C04092524EDAF006B6C9E /* DataModel.xcdatamodeld in Sources */,
 				5F590298251A2C48005F280E /* TableViewController.swift in Sources */,
 				5F590294251A2C48005F280E /* AppDelegate.swift in Sources */,
 				5F590296251A2C48005F280E /* SceneDelegate.swift in Sources */,
@@ -369,6 +369,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F6C04072524EDAF006B6C9E /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F6C04082524EDAF006B6C9E /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 5F6C04082524EDAF006B6C9E /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5F590288251A2C48005F280E /* Project object */;
 }
