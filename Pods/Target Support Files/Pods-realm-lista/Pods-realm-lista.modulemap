@@ -1,0 +1,6 @@
+framework module Pods_realm_lista {
+  umbrella header "Pods-realm-lista-umbrella.h"
+
+  export *
+  module * { export * }
+}
