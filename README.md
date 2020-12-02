@@ -13,4 +13,4 @@ This app uses:<br/>
 -GitFlow<br/>
 
 Screenshots:<br/>
-<img src="Screenshots/realm-1.png" width="250" height="500"/> <img src="Screenshots/realm-2.png" width="250" height="500"/><br/> <img src="Screenshots/realm-3.png" width="250" height="500"/> <img src="Screenshots/realm-4.png" width="250" height="500"/>
+<img src="Screenshots/realm-1.PNG" width="250" height="500"/> <img src="Screenshots/realm-2.PNG" width="250" height="500"/><br/> <img src="Screenshots/realm-3.PNG" width="250" height="500"/> <img src="Screenshots/realm-4.PNG" width="250" height="500"/>
