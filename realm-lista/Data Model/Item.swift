@@ -2,12 +2,15 @@
 //  Item.swift
 //  realm-lista
 //
-//  Created by Paweł Kozioł on 24/09/2020.
+//  Created by Paweł Kozioł on 30/10/2020.
 //
 
 import Foundation
+import RealmSwift
 
-class Item {
-    var title: String = ""
-    var done: Bool = false
+class Item: Object {
+    @objc dynamic var title: String = ""
+    @objc dynamic var done: Bool = false
+    @objc dynamic var dateCreated: Date?
+    var parentCategory = LinkingObjects(fromType: Category.self, property: "items")
 }
