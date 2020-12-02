@@ -7,6 +7,7 @@
 
 import UIKit
 import SwipeCellKit
+import ChameleonFramework
 
 
 class SwipeTableViewController: UITableViewController, SwipeTableViewCellDelegate {
@@ -15,7 +16,8 @@ class SwipeTableViewController: UITableViewController, SwipeTableViewCellDelegat
         super.viewDidLoad()
         
         tableView.rowHeight = 60.0
-        overrideUserInterfaceStyle = .light
+        tableView.separatorStyle = .none
+        self.setStatusBarStyle(UIStatusBarStyleContrast)
     }
     
     

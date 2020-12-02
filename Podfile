@@ -6,6 +6,7 @@ target 'realm-lista' do
   use_frameworks!
 
    # Pods for realm-lista
+    pod 'ChameleonFramework/Swift', :git => 'https://github.com/MarcoPolokk/Chameleon.git', :branch => 'master'
     pod 'SwipeCellKit'
     pod 'RealmSwift'
 end
